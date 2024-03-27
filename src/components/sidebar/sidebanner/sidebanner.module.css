@@ -1,0 +1,13 @@
+.sideBanner_Container {
+  width: 250px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+}
+
+.sticky {
+  position: fixed;
+  top: 100px; /* Adjust as per your layout */
+  width: 100%;
+  /* You can also add more styles such as background color, z-index, etc. */
+}

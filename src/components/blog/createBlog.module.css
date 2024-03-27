@@ -1,0 +1,106 @@
+.main_container {
+}
+
+.top_btnBar {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: end;
+}
+
+.form_section {
+  display: flex;
+  column-gap: 50px;
+}
+
+.form_leftPart {
+  width: 60%;
+}
+
+.inputStyle {
+  font-size: 14px;
+  width: 100%;
+  height: auto;
+  min-height: 20px;
+  box-shadow: initial !important;
+  border-radius: 5px;
+  transition: border-color 0.15s ease-in-out;
+  outline: none;
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 6px 12px;
+}
+
+/* rihst part */
+
+.form_rightPart {
+  width: 40%;
+}
+
+.blog_title,
+.blog_thumblin {
+  margin-bottom: 20px;
+}
+
+.addTag_box {
+  width: 300px;
+  min-height: 150px;
+  border: 1px solid gray;
+}
+
+.quill-image {
+}
+
+.reactQuill_style {
+  max-width: 100%; /* Set maximum width to prevent overflow */
+  height: auto; /* Maintain aspect ratio */
+  height: 220px;
+  border: 1px solid red;
+}
+
+/* Image box  */
+
+.blog_thumblin {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+  background: #ffffff;
+  border-radius: 16px;
+  border: initial;
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.card_body {
+  padding: 10px;
+  position: relative;
+  min-height: 250px;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+.uploadImage_container {
+  border-radius: 1px;
+}
+
+.dropBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  border: 2px dashed #dcdcdc;
+}
+
+.uploadImage_body {
+  position: relative;
+}
+
+.imageInput {
+  /* display: none; */
+}

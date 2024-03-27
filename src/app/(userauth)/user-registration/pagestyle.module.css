@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.authBanner_side {
+  width: 40%;
+  height: 100%;
+  background-image: url("../../../../public/website-static-img/auth-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.buller_banner {
+  background-color: rgba(0, 0, 0, 0.663);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.form_container {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.form_wrapeer {
+  width: 45%;
+}

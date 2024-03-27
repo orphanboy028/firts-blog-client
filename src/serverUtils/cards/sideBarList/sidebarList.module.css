@@ -1,0 +1,17 @@
+.list_title {
+  margin-bottom: 20px;
+}
+
+.list_card {
+  margin-bottom: 20px;
+}
+
+.list_title {
+  margin-bottom: 10px;
+}
+
+.list_footer {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}

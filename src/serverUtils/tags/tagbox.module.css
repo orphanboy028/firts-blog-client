@@ -1,0 +1,16 @@
+.tag_wrapper {
+  margin-bottom: 20px;
+  border: 1px solid red;
+}
+
+.tag_container {
+  background-color: #f2f2f2;
+  border-radius: 50px;
+  padding: 7px 20px;
+  cursor: pointer;
+  color: var(--textColor);
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

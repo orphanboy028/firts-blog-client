@@ -1,0 +1,30 @@
+.primaryBg {
+  background-color: var(--btn-bg);
+  width: 100%;
+  padding: 5px 0px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  display: block;
+  font-size: 16px;
+}
+
+.primaryBorder {
+  border: 1px solid var(--btn-bg);
+  width: 100%;
+  padding: 5px 0px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: var(--btn-bg);
+  display: block;
+  font-size: 16px;
+}
+
+.primaryBg:hover {
+  background-color: var(--bs-primary);
+}

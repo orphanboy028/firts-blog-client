@@ -1,0 +1,49 @@
+.main_container {
+  margin-top: 100px;
+}
+
+.wraaper {
+  display: flex;
+  column-gap: 50px;
+}
+
+.content_warpper {
+  width: 80%;
+}
+
+.blog_titleBox {
+  margin-bottom: 20px;
+}
+
+.thumblin_box {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.thumblin_imageStyle {
+  width: 100%;
+  height: 100%;
+}
+
+.metaDescreption_box {
+  margin-bottom: 20px;
+}
+
+.content_box {
+  position: relative;
+}
+
+.content_box img {
+  width: 100%;
+}
+
+.content_box p {
+  font-size: 16px;
+}
+
+.quill-image {
+  max-width: 50%; /* Set maximum width to prevent overflow */
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid red;
+}

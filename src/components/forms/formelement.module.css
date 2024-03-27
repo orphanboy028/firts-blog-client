@@ -1,0 +1,22 @@
+.formeCard {
+  margin-bottom: 50px;
+}
+
+.formCard_header {
+  margin-bottom: 5px;
+  padding: 5px 0px;
+}
+
+.form_Wrapper {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.submitBtn_wrapper {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}

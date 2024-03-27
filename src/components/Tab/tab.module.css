@@ -1,0 +1,70 @@
+.tab_container {
+  display: flex;
+  width: 100%;
+}
+
+.arrow_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 10%;
+  font-size: 20px;
+  font-family: var(--inter-font);
+  height: 47px;
+}
+
+.tab_wrapper {
+  display: flex;
+  cursor: pointer;
+  overflow-x: scroll;
+  align-items: center;
+  box-sizing: border-box;
+  height: 32px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  padding: 0px 5px;
+}
+
+.tabLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 0px 15px;
+  height: 40px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: var(--inter-font);
+  font-weight: 500;
+  border-bottom: 1px solid gray;
+}
+
+.selectedTab {
+  border-bottom: 2px solid red;
+}
+
+.tab_wrapper::-webkit-scrollbar {
+  width: 2px; /* Set the width of the scrollbar */
+  height: 1px; /* Set the height of the scrollbar */
+}
+
+.tab_wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.tab_wrapper::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .arrow_box {
+    display: none;
+  }
+}

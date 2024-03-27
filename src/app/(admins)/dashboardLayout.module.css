@@ -1,0 +1,102 @@
+.layout_body {
+}
+
+.main_container {
+  border: 1px solid transparent;
+  min-height: 700px;
+  position: relative;
+}
+
+.dashBoard_navBarContainer {
+  width: 100%;
+  background-color: red;
+  position: fixed;
+  height: 50px;
+  z-index: 2;
+}
+
+.dekstop_navBar {
+  display: flex;
+}
+
+.navToggle_box {
+  width: 200px;
+}
+
+.content_container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.dashBoard_sideBar,
+.dashBoard_sideBarOpen {
+  width: 200px;
+  border: 1px solid gray;
+  background-color: rgb(220, 220, 220);
+  position: fixed;
+  height: 100%;
+  top: 0;
+  z-index: 5;
+  left: 0;
+}
+
+.sideBar_header {
+  width: 200px;
+  border: 1px solid gray;
+  height: 100px;
+  position: relative;
+}
+
+.sidebarCloseHangBug {
+  display: none;
+}
+
+.dashBoardcontent_wrapper {
+  width: calc(100% - 200px);
+  position: relative;
+  left: 200px;
+}
+
+.dashBoard_footerContainer {
+  background-color: rgb(198, 240, 198);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .navToggle_box {
+    width: 20px;
+  }
+  .dashBoard_sideBar {
+    width: 200px;
+    border: 1px solid gray;
+    background-color: rgb(220, 220, 220);
+    position: fixed;
+    height: 100%;
+    top: 0;
+    z-index: 5;
+    left: -200px;
+  }
+  .dashBoard_sideBarOpen {
+    left: 0;
+    background-color: green;
+    position: fixed;
+    height: 100%;
+    z-index: 5;
+  }
+
+  .sidebarCloseHangBug {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+  }
+  .dashBoardcontent_wrapper {
+    width: calc(100%);
+    left: 0px;
+  }
+  .content_container {
+    margin-top: 50px;
+  }
+}

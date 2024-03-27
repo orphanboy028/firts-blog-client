@@ -1,0 +1,32 @@
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid gray;
+  width: 100%;
+  height: 100%;
+  padding: 0px 30px;
+}
+
+.actions_wrapper {
+  display: flex;
+  min-width: 100px;
+  column-gap: 20px;
+}
+
+.columns {
+  display: flex;
+  column-gap: 20px;
+  cursor: pointer;
+}
+
+.child_element {
+  display: flex;
+  column-gap: 5px;
+}
+
+.pageNumber_box {
+  display: flex;
+  column-gap: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.dashBoard_navBarContainer {
+  width: 100%;
+  background-color: red;
+  position: fixed;
+  height: 50px;
+  z-index: 2;
+}
+
+.dekstop_navBar {
+  display: flex;
+}
+
+.navToggle_box {
+  width: 200px;
+}

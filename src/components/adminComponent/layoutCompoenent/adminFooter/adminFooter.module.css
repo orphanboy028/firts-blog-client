@@ -1,0 +1,6 @@
+.dashBoard_footerContainer {
+  background-color: rgb(198, 240, 198);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

@@ -1,0 +1,70 @@
+.tag_container {
+  /* width: 100%;
+  border: 1px solid gray;
+  min-height: 50px;
+  background-color: rgba(220, 220, 220, 0.6); */
+}
+
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  background-color: #ffff;
+  padding: 6px 10px;
+  margin-bottom: 10px;
+}
+
+.chip {
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  padding: 5px 7px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.removeIcon {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.input_wrapper {
+  position: relative;
+  display: inline-block;
+  min-width: 10px;
+}
+
+.tag_input {
+  border: none;
+  padding: 5px 0px;
+  outline: none;
+  position: relative;
+  min-width: 10px;
+}
+
+.tagchip {
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  padding: 5px 7px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  background-color: #ffff;
+}
+
+.submitBtn_wrapper {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}

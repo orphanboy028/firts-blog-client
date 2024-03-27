@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  margin-top: 50px;
+  column-gap: 10px;
+  justify-content: space-between;
+}
+
+.content_side {
+  width: 65%;
+}
+
+.page_TitleBox {
+  margin-bottom: 20px;
+}
+
+.page_titleWrapper {
+  border-bottom: 2px solid red;
+  display: inline-block;
+  padding: 5px 0px;
+}
+
+.right_Column_container {
+  width: 20%;
+  position: absolute;
+  height: 100%;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  row-gap: 20px;
+}

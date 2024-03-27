@@ -1,0 +1,10 @@
+.fillterBox {
+  display: flex;
+  column-gap: 50px;
+}
+
+.sortNBox {
+  display: flex;
+  column-gap: 10px;
+  cursor: pointer;
+}

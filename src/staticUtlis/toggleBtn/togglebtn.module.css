@@ -1,0 +1,52 @@
+.toggle_switch {
+  width: 40px; /* Adjust the width as needed */
+  height: 20px;
+  border: 1px solid var(--bg);
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  background-color: var(--textColor);
+}
+
+.toggle_switchActive {
+  width: 40px; /* Adjust the width as needed */
+  height: 20px;
+  border: 1px solid var(--bg);
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  background-color: var(--textColor);
+}
+
+.round_button {
+  width: 15px; /* Adjust the width as needed */
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--textColor);
+  position: absolute;
+  top: 2px;
+  transition: transform 0.3s, background-color 0.2s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.moon_ImageStyle {
+  position: absolute;
+  right: 5px;
+  top: 3px;
+}
+
+.sun_imageStyle {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+}
+
+.on .round_button {
+  transform: translateX(20px);
+  background-color: var(--bg);
+}
+
+.off .round_button {
+  transform: translateX(1px);
+  background-color: var(--bg);
+}

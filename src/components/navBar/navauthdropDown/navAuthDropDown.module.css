@@ -1,0 +1,51 @@
+.main_container {
+  position: absolute;
+  width: 200px;
+  min-height: 250px;
+  left: -50px;
+  top: 40px;
+  box-shadow: var(--box-shadow);
+  padding: 5px 0px;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.dropDown_header {
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.dropDown_body {
+  padding: 5px;
+}
+
+.dropDown_optionBox {
+  display: flex;
+  column-gap: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.dropDown_footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+  border-top: 1px solid gray;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  height: 200px;
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,99 @@
+.main_container {
+  width: 100%;
+  background-color: var(--bg);
+  color: var(--textColor);
+}
+
+.dekstop_container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid var(--textColor);
+  height: 50px;
+  margin-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  background-color: var(--bg);
+  color: var(--textColor);
+  z-index: 10;
+}
+
+.logoBox {
+}
+
+.social_IconBox {
+  display: flex;
+  column-gap: 10px;
+}
+
+.image_icon {
+  color: var(--textColor);
+}
+
+.search_box {
+  flex-grow: 1;
+  flex: 3;
+}
+
+.nav_optionBox {
+  display: flex;
+  column-gap: 15px;
+  text-transform: capitalize;
+  /* border: 1px solid red; */
+  align-items: center;
+}
+
+.mobile_conatiner {
+  display: none;
+  z-index: 10;
+}
+
+.userlogin_Wraper {
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .dekstop_container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .dekstop_container {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dekstop_container {
+    display: none;
+  }
+  .mobile_conatiner {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid var(--textColor);
+    height: 50px;
+    margin-bottom: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    background-color: var(--bg);
+    color: var(--textColor);
+  }
+
+  .Mobile_toggleBox {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+  }
+}
